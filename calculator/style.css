@@ -1,0 +1,66 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    display: block;
+    font-size: 22px;
+    border: 1px solid #444;
+    color: white;
+    background-color: #999;
+    font-weight: lighter;
+}
+
+.calculator {
+    width: 200px;
+    height: 312px;
+    margin: 200px auto;
+    background-color: #444;
+}
+
+.result {
+    box-sizing: border-box;
+    height: 20%;
+    font-size: 36px;
+    text-align: right;
+    color: #fff;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.numbers-and-operators {
+    display: flex;
+}
+
+.left-side {
+    width: 75%;
+}
+
+.sidebar-operators {
+    flex: 1;
+}
+
+.sidebar-operators > button {
+    background-color: #ffa64d;
+    color: #fff;
+}
+
+.row {
+    display: flex;
+}
+
+.clear,
+.zero {
+    width: 66.666666%;
+}
+
+.clear,
+.percent {
+    background-color: #666;
+    color: white;
+}
